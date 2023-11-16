@@ -4,7 +4,7 @@ const path = require('path');
 const { check } = require('./middleware/check')
 const api = require('./routes/index.js');
 
-const PORT = process.envPORT || 3001;
+const PORT = process.env.PORT || 3001;
 
 const app = express();
 
