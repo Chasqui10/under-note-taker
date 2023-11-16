@@ -1,3 +1,4 @@
+// Helper fsUtils is supporting the functions: readFromFile | writeToFile | readAndAppend  utilized in routes folder
 const fs = require('fs');
 const util = require('util');
 

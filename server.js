@@ -1,3 +1,4 @@
+// Initial communication to node packages, static environments, and routes.  
 const express = require('express');
 const path = require('path');
 const { check } = require('./middleware/check')

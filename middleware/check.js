@@ -1,3 +1,4 @@
+//Middleware is used to log request methods while the server is running.
 const check = (req, res, next) => {
     const fgCyan = '\x1b[36m';
     switch (req.method) {
