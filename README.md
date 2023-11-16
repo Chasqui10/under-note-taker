@@ -19,7 +19,9 @@
   N/A
   
   ## Usage
-  Please references license guidelines.
+
+  Here is the link to the heroku app that demostrates this:<br>
+  Heroku: [under-note-taker](https://under-note-taker-08b336cd2e48.herokuapp.com/)
 
   ## License
     This project utilize this MIT.
@@ -28,7 +30,13 @@
   Please communicate with me through Github so I can understand what contribution you would like to do. Thank you.
   
   ## Test
-  N/A <br>
+
+  **Example of HEROKU app deployment for the Home page with HerokuURL:** <br>
+  ![Heroku under-note-taker Home Page](./public/assets/images/herokuApp_under-note-taker_Home.jpg)
+  **Example of HEROKU app deployment for the Notes page with HerokuURL:** <br>
+  ![Heroku under-note-taker Home Page](./public/assets/images/herokuApp_under-note-taker_Notes.jpg)
+  **Example of HEROKU app deployment for database and app relationship comparison with HerokuURL:** <br>
+  ![Heroku under-note-taker Home Page](./public/assets/images/herokuApp_under-note-taker_DB_notesRelationship.jpg)
 
  
   ## Questions
