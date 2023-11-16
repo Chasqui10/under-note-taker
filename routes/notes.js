@@ -1,5 +1,6 @@
 const note2 = require('express').Router();
 const {readFromFile, readAndAppend, writeToFile } = require('../helpers/fsUtils');
+const {v4: uuidv4} = require('uuid')
 
 note2.get('/', (req, res) => {
     console.info(`${req.method} request recieved for notes`);
@@ -11,12 +12,13 @@ note2.get('/', (req, res) => {
 note2.post('/', (req, res) => {
     console.info(`${req.method} request recieved to submit new note.`);
 
-    const { title, text } = req.body;
+    const { title, text, id } = req.body;
     
     if (title && text) {
         const newNote2 = {
             title,
-            text
+            text,
+            id: uuidv4(),
         };
     
         readAndAppend(newNote2, './db/notes.json');
